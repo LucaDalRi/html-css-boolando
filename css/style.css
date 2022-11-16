@@ -5,3 +5,147 @@
     padding: 0;
     box-sizing: border-box;
 }
+.debug{
+    border: 2px dashed black;
+}
+
+/* inizio header */
+
+header{
+    background-color: #ff6900;
+    min-width: 100%;
+    height: 80px;
+    position: fixed;
+}
+main{
+    padding-top: 80px;
+}
+
+.container-header{
+    width: 888px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.div-header{
+width: 25%;
+text-decoration: none;
+color: white;
+}
+
+.div-header a{
+    text-decoration: none;
+    color: white
+}
+
+.div-logo{
+width: 50%;
+height: 80px;
+text-align: center;
+}
+
+#logo{
+    width: 30%;
+    height: 80px;
+    object-fit: contain;
+    
+}
+
+.icon-header{
+    text-align: right;
+    width: 25%;
+    color: white;
+}
+
+/* inizio main */
+
+
+.container-main{
+    width: 888px;
+    margin: 0 auto;
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+}
+
+.model-photo{
+    width: 250px;
+    height: 350px;
+}
+
+.item-info{
+    height: 50px;
+    font-size: 12px;
+}
+
+.price-red{
+    color: red;
+}
+
+.price-dashed{
+    color: gray;
+    text-decoration: line-through gray;
+}
+
+.discount-red, .discount-red2{
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    top: 415px;
+    position: absolute;
+}
+.discount-red, .box-sostenibilita, .discount-red2, .box-sostenibilita2{
+    font-size: small;
+    text-align: center;   
+}
+.box-sostenibilita, .box-sostenibilita2{
+    display: inline-block;
+    width: 80px;
+    height: 15px;
+    background-color: green;
+    color: white;
+    top: 0px;
+    left: 42px;
+    position: absolute;
+}
+
+.discount-red2{
+    top: 810px;
+}
+/* inizo footer */
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.container-footer{
+    width: 888px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credits-footer{
+
+}
+
+.icons-footer{
+
+}
