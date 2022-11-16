@@ -69,19 +69,30 @@ text-align: center;
     min-height: 800px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
     justify-content: space-between;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .card{
     width: 250px;
     height: 400px;
+    
 }
-
+.card-hover{
+    background-image: url(../img/1b.webp);
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+}
 .model-photo{
     width: 250px;
     height: 350px;
+    
+}
+
+.model-photo:hover{
+    display: none;
 }
 
 .item-info{
